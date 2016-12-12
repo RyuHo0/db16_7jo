@@ -1,0 +1,44 @@
+insert into movie_actor values(1,1,'영조역');
+insert into movie_actor values(3,1,'송우석');
+insert into movie_actor values(1,2,'사도세자역');
+insert into movie_actor values(1,3,'혜경궁 홍씨 역');
+insert into movie_actor values(1,4,'영빈역');
+insert into movie_actor values(1,5,'인원왕후역');
+insert into movie_actor values(4,6,'덕수역');
+insert into movie_actor values(2,6,'서도철역');
+insert into movie_actor values(5,6,'박성배역');
+insert into movie_actor values(4,7,'달구역');
+insert into movie_actor values(2,7,'오팀장역');
+insert into movie_actor values(3,7,'박동호역');
+insert into movie_actor values(4,8,'영자역');
+insert into movie_actor values(2,9,'최상무역');
+insert into movie_actor values(3,10,'최순애역');
+insert into movie_actor values(5,11,'한도경역');
+insert into movie_actor values(5,12,'문선모역');
+insert into movie_actor values(5,13,'도창학역');
+insert into movie_actor values(3,14,'차동영역');
+insert into movie_actor values(5,14,'김차인역');
+insert into movie_actor values(5,15,'작대기역');
+
+
+
+
+
+
+insert into director_movie values(1,1);
+insert into director_movie values(2,2);
+insert into director_movie values(3,3);
+insert into director_movie values(4,4);
+insert into director_movie values(5,5);
+
+
+descibe 테이블이름;
+
+
+영화번호 
+
+1 사도
+2 베테랑
+3 변호인
+4 국제시장
+5 아수라

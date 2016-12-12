@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+		
+		<title> 영화 검색 </title>
+	<style>
+	fieldset{
+		margin-bottom: 15px;
+		}
+	ul#m1 li{
+		dispaly:inline;
+		
+		}
+	</style>
+</head>
+
+<body>
+	<form name = "영화 검색" method = "post">
+	<fieldset>
+	<ul id = "m1">
+		<legend accesskey="p"><h1>영화 검색</h1></legend>
+		<li>검색 : <input type= "text" size = "30"></li><br>
+		
+		<li>분류 :<input type= "radio" name="분류" value ="영화" checked="checked">영화 
+			  <input type= "radio" name="분류" value ="감독" checked="checked">감독
+			  <input type= "radio" name="분류" value ="배우" checked="checked">배우
+			  <input type= "radio" name="분류" value ="OST" checked="checked">OST
+		</li><br>
+		
+		<li>조건 :<input type= "radio" name="조건" value ="연도" checked="checked">연도
+			  <input type= "radio" name="조건" value ="관객" checked="checked">관객
+			  <input type= "radio" name="조건" value ="평점" checked="checked">평점
+		
+		
+		<p> <input type= "text" size = "37"></p>
+ 
+		<p> <input type= "text" size = "14.5"> ~ <input type= "text" size = "14.5"> </p>
+
+		<input type = "submit" value="search"/>
+		</li><br>
+	</ul>
+	<fieldset>
+</body>
+
+</html>
+
+
